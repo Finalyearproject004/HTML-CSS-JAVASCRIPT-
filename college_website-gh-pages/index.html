@@ -21,26 +21,27 @@
             <div class="header-container">
                 <div>
                     <div class="logo-name">
-                        <div class="logo"><a href="index.html" title=""><img src="img/IIITV_Logo_1x1_small.png"
-                                                                             alt="logo"></a></div>
+                        <div class="logo">
+                            <a href="index.html" title=""><img src="img/IIITV_Logo_1x1_small.png" alt="logo"></a>
+                        </div>
                         <div class="name">
                             <a href="index.html" title="">
-                                <h5>Indian Institute of Information Technology</h5>
-                                <h5 class="primary-color">Vadodara</h5>
+                                <h5>Sobhasaria Group Of Institutions- (SGI)</h5>
+                                <h5 class="primary-color">Sikar Rajasathan</h5>
                             </a>
                         </div>
                     </div>
                 </div>
                 <div class="header-links">
-                    <a href="#" data-toggle="popover" title="Address"
+                    <a id="loc_icon" href="#" data-toggle="popover" title="Address"
                        data-content="c/o Block No.9 (IC Department), Government Engineering College, Sector-28, Gandhinagar, Gujarat - 382028"
                        data-placement="bottom"><i class="fa fa-map-marker fa-lg" aria-hidden="true"></i></a>
-
-                    <a href="#" data-toggle="popover" title="Phone No." data-content="+91-79-29750281"
+                    <a id="phone_icon" href="#" data-toggle="popover" title="Phone No." data-content="+91-79-29750281"
                        data-placement="bottom"><i class="fa fa-phone fa-lg" aria-hidden="true"></i></a>
+                    <a id="email_icon" href="#" data-toggle="popover" title="Email"
+                       data-content="helpdesk@iiitvadodara.ac.in" data-placement="bottom"><i
+                            class="fa fa-envelope fa-lg" aria-hidden="true"></i></a>
 
-                    <a href="#" data-toggle="popover" title="Email" data-content="helpdesk@iiitvadodara.ac.in"
-                       data-placement="bottom"><i class="fa fa-envelope fa-lg" aria-hidden="true"></i></a>
                 </div>
             </div>
         </div>
@@ -58,11 +59,11 @@
                     </div>
                     <div class="collapse navbar-collapse">
                         <ul class="nav navbar-nav">
-                            <li>
+                            <li class="">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Institute <b
                                         class="caret"></b></a>
                                 <ul class="dropdown-menu multi-level">
-                                    <li><a href="about.html">About</a></li>
+                                    <li class=""><a href="about.html">About</a></li>
                                     <li><a href="directors_message.html">Director's Message</a></li>
                                     <li><a href="bog.html">Board of Governors</a></li>
                                     <li><a href="society_members.html">Society Members</a></li>
@@ -86,19 +87,43 @@
                                         class="caret"></b></a>
                                 <ul class="dropdown-menu multi-level">
                                     <li class="dropdown-submenu">
-                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">B.Tech</a>
+                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Bachelor's </a>
                                         <ul class="dropdown-menu">
-                                            <li><a href="btech_cse.html">CSE</a></li>
-                                            <li><a href="btech_it.html">IT</a></li>
+                                            <li class="dropdown-submenu">
+                                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">B.Tech</a>
+                                                <ul class="dropdown-menu">
+                                                    <li><a href="btech_cse.html">Computer Engineering</a></li>
+                                                    <li><a href="btech_cse.html">Civil Engineering</a></li>
+                                                    <li><a href="btech_cse.html">Mechanical Engineering</a></li>
+                                                    <li><a href="btech_cse.html">Electronics Engineering</a></li>
+                                    
+                                                </ul>
+                                            </li>
+                                            <li><a href="btech_cse.html">Bachelor of Arts</a></li>
+                                            <li><a href="btech_cse.html">Bachelor of Science</a></li>
+                                            <li><a href="btech_cse.html">Bachelor of Commerce</a></li>
+                                            <li><a href="btech_cse.html">Bachelor of Laws</a></li>
+                            
                                         </ul>
                                     </li>
                                     <li class="dropdown-submenu">
-                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">M.Tech</a>
+                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Master's</a>
                                         <ul class="dropdown-menu">
-                                            <li><a href="mtech_cse.html">CSE</a></li>
+                                            <li><a href="mtech_cse.html">Computer Engineering</a></li>
+                                            <li><a href="mtech_cse.html"> Renewable Energy</a></li>
+                                            <li><a href="mtech_cse.html"> Power Systems</a></li>
                                         </ul>
                                     </li>
-                                    <li><a href="phd.html">Ph.D</a></li>
+                                    </li>
+                                    <li class="dropdown-submenu">
+                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Post Graduation</a>
+                                        <ul class="dropdown-menu">
+                                            <li><a href="mtech_cse.html">Bachelor of Arts</a></li>
+                                            <li><a href="mtech_cse.html"> Renewable Energy</a></li>
+                                            <li><a href="mtech_cse.html"> Power Systems</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="phd.html">MBA</a></li>
                                     <li><a href="pdf/academic_calendar_autumn_2015_16.pdf">Academic Calender</a></li>
 
                                 </ul>
@@ -109,6 +134,7 @@
                                 <ul class="dropdown-menu multi-level">
                                     <li><a href="btech_admission.html">B.Tech</a></li>
                                     <li><a href="mtech_admission.html">M.Tech</a></li>
+                                    <li><a href="mtech_admission.html">BA/BSC/BCOM</a></li>
                                     <li><a href="phd_admission.html">Ph.D</a></li>
                                 </ul>
                             </li>
@@ -132,7 +158,7 @@
                                 </ul>
                             </li>
                             <li><a href="career.html">Career</a></li>
-                            <li><a href="gallery.html">Photo Gallery</a></li>
+                            <li class="active"><a href="gallery.html">Photo Gallery</a></li>
                         </ul>
                     </div>
                     <!--/.nav-collapse -->
@@ -154,7 +180,7 @@
                 <div></div>
             </div>
             <div class="carousel-items">
-                <img height="400px" src="img/gallery/students.jpg" alt="Students">
+                <img height="400px" width="800px" src="img/gallery/students.jpg" alt="Students">
                 <div></div>
             </div>
             <div class="carousel-items">
@@ -162,7 +188,7 @@
                 <div></div>
             </div>
             <div class="carousel-items">
-                <img height="400px" src="img/gallery/winners.jpg" alt="Winners">
+                <img height="400px" width="800px" src="img/gallery/winners.jpg" alt="Winners">
                 <div></div>
             </div>
         </div>
@@ -337,8 +363,9 @@
             <span class="logo"><img src="img/IIITV_Logo_1x1_small.png" alt=""></span>
             <div class="row">
                 <div class="col-sm-4 address">
-                    <strong>Address : </strong>c/o Block No.9 (IC Department), Government Engineering College,
-                    Sector-28, Gandhinagar, Gujarat - 382028
+                    <strong>Address : </strong>Address:NH-52, Gokulpura,Sikar Rajasthan- 332001..
+                    <br>Phone:+91-8003595093
+                    <br>E-mail:admissions@secs.ac.in
                 </div>
                 <div class="col-sm-4 links">
                     <div>
@@ -364,11 +391,11 @@
                     </div>
                 </div>
                 <div class="col-sm-4 footer-social">
-                    <a href="#!"><i class="fa fa-facebook" aria-hidden="true" title="Official Facebook Page"></i></a>
+                    <a href="https://www.facebook.com/SobhasariyaEngineeringCollegeSikar/"><i class="fa fa-facebook" aria-hidden="true" title="Official Facebook Page"></i></a>
                     <a href="https://github.com/iiitv"><i class="fa fa-github" aria-hidden="true"
                                                           title="Github Group"></i></a>
-                    <a href="#!"><i class="fa fa-linkedin" aria-hidden="true" title="LinkedIn Profile"></i></a>
-                    <a href="#!" title=""><i class="fa fa-twitter" aria-hidden="true"
+                    <a href="https://www.linkedin.com/today/author/sobhasaria1999?trk=author-info__article-link"><i class="fa fa-linkedin" aria-hidden="true" title="LinkedIn Profile"></i></a>
+                    <a href="https://twitter.com/sobhasaria1?lang=en" title=""><i class="fa fa-twitter" aria-hidden="true"
                                              title="Official Twitter Account"></i></a>
                 </div>
             </div>
